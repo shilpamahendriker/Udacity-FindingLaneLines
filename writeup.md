@@ -13,7 +13,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./test_images_output/solidWhiteCurve.jpg
+
 
 ---
 
@@ -26,7 +27,7 @@ My pipeline starts with converting the images to grayscale, applying Gaussian sm
 To make a single line on the left and right lanes, I modified the draw_lines() function first by segregating left and right lines by using slope.Calculated the average of slopes on each side and drew a continuious line representing the lanes.
 
 
-[image1]: ./test_images_output/solidWhiteCurve.jpg
+![alt text][image1]
 
 
 ### Potential shortcomings with your current pipeline
